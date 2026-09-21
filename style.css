@@ -4,7 +4,7 @@ body {
 
     font-family: Comic Sans MS, sans-serif;
 
-    background: #111111;
+    background: #050505;
     color: white;
 
     text-align: center;
@@ -119,3 +119,71 @@ h2 {
     text-decoration: none;
 }
 
+.robux-youtube {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.link-card {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+}
+
+.youtube {
+    color: red;
+    border-color: red;
+}
+
+.robux {
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.header {
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 18%;
+
+    box-sizing: border-box;
+
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.95)
+        ),
+        url("https://www.reddit.com/r/roblox/comments/1mmqaa9/why_do_people_say_forsaken_is_a_dbd_clone_even/?tl=ru");
+
+    background-size: cover;
+    background-position: center;
+
+    gap: 30px;
+}
+
+
+.header-logo {
+    display: flex;
+    align-self: center;
+
+    gap: 20px;
+
+    white-space: nowrap;
+}
