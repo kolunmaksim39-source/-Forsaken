@@ -13,20 +13,29 @@ body {
 
 
 h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+    text-align: center;
+    
+    font-size: 38px;
+    
+    font-weight: normal;
 
-    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: -15px;
 
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
+    color: #dddddd;
+
+    text-shadow: none;
 }
 
 
-p {
-    font-size: 18px;
+.content > p {
+    font-size: 17px;
+
     color: #aaaaaa;
 
-    margin-bottom: 50px;
+    font-weight: bold;
+
+    margin-bottom: 40px;
 }
 
 
@@ -53,13 +62,15 @@ h2 {
 
     width: 220px;
 
-    padding: 15px;
+    padding: 0px;
 
-    background: #1b1b1b;
+    background: #111116;
 
-    border: 1px solid #333333;
+    border: 1px solid #25252b;
 
-    border-radius: 15px;
+    border-radius: 0;
+
+    overflow: hidden;
 
     transition: 0.25s;
 
@@ -75,7 +86,7 @@ h2 {
 
     object-fit: cover;
 
-    border-radius: 10px;
+    border-radius: 0;
 
     display: block;
 
@@ -86,9 +97,11 @@ h2 {
 
 .section h3 {
 
-    font-size: 21px;
+    font-size: 18px;
 
-    margin: 15px 0 5px;
+    margin: 0;
+
+    padding: 15px;
 
     color: white;
 }
@@ -187,3 +200,78 @@ h2 {
 
     white-space: nowrap;
 }
+
+.header {
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 18%;
+
+    box-sizing: border-box;
+
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.95)
+        ),
+        url("https://preview.redd.it/lets-say-that-forsaken-has-officially-become-a-tv-series-v0-gj0ge8u9d8hf1.jpeg?width=640&crop=smart&auto=webp&s=8a038b756e7be9a55f6b788e47cf9ec37eff7852");
+
+    background-size: cover;
+    background-position: center;
+
+    gap: 30px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+
+    white-space: nowrap;
+}
+
+
+.header-logo span {
+    font-size: 32px;
+
+    font-weight: bold;
+
+    letter-spacing: -3px;
+
+    transform: rotate(-3 deg);
+}
+
+
+.header-logo nav {
+    display: flex;
+
+    gap: 25px;
+
+    margin-left: 20px;
+}
+
+
+.header nav a:hover {
+    color:#aaa;
+}
+
+
+.content {
+    width: 68%;
+
+    min-height: 700px;
+
+    margin: 0 auto;
+
+    padding: 30px 40px 60px;
+
+    box-sizing: border-box;
+
+    background: #09090c;
+}
+
+
