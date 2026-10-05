@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 40px;
+
+    font-family: Comic Sans MS, sans-serif;
+
+    background: #050505;
+    color: white;
+
+    text-align: center;
+}
+
+
+
+h1 {
+    text-align: center;
+    
+    font-size: 38px;
+    
+    font-weight: normal;
+
+    margin-top: 0;
+    margin-bottom: -15px;
+
+    color: #dddddd;
+
+    text-shadow: none;
+}
+
+
+.content > p {
+    font-size: 17px;
+
+    color: #aaaaaa;
+
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.sections {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+
+.section {
+
+    width: 220px;
+
+    padding: 0px;
+
+    background: #111116;
+
+    border: 1px solid #25252b;
+
+    border-radius: 0;
+
+    overflow: hidden;
+
+    transition: 0.25s;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.section img {
+
+    width: 220px;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 0;
+
+    display: block;
+
+    transition: 0.25s;
+}
+
+
+
+.section h3 {
+
+    font-size: 18px;
+
+    margin: 0;
+
+    padding: 15px;
+
+    color: white;
+}
+
+
+
+.section:hover {
+
+    transform: translateY(-8px);
+
+    background: #242424;
+
+    border-color: #555555;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+.section:hover img {
+
+    transform: scale(1.03);
+}
+
+
+
+.section a {
+
+    text-decoration: none;
+}
+
+.robux-youtube {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.link-card {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid #333;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.link-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
+}
+
+.youtube {
+    color: red;
+    border-color: red;
+}
+
+.robux {
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.header {
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 18%;
+
+    box-sizing: border-box;
+
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.95)
+        ),
+        url("https://www.reddit.com/r/roblox/comments/1mmqaa9/why_do_people_say_forsaken_is_a_dbd_clone_even/?tl=ru");
+
+    background-size: cover;
+    background-position: center;
+
+    gap: 30px;
+}
+
+
+.header-logo {
+    display: flex;
+    align-self: center;
+
+    gap: 20px;
+
+    white-space: nowrap;
+}
+
+.header {
+    height: 160px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 18%;
+
+    box-sizing: border-box;
+
+    background: 
+        linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.95)
+        ),
+        url("https://preview.redd.it/lets-say-that-forsaken-has-officially-become-a-tv-series-v0-gj0ge8u9d8hf1.jpeg?width=640&crop=smart&auto=webp&s=8a038b756e7be9a55f6b788e47cf9ec37eff7852");
+
+    background-size: cover;
+    background-position: center;
+
+    gap: 30px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+
+    white-space: nowrap;
+}
+
+
+.header-logo span {
+    font-size: 32px;
+
+    font-weight: bold;
+
+    letter-spacing: -3px;
+
+    transform: rotate(-3 deg);
+}
+
+
+.header-logo nav {
+    display: flex;
+
+    gap: 25px;
+
+    margin-left: 20px;
+}
+
+
+.header nav a:hover {
+    color:#aaa;
+}
+
+
+.content {
+    width: 68%;
+
+    min-height: 700px;
+
+    margin: 0 auto;
+
+    padding: 30px 40px 60px;
+
+    box-sizing: border-box;
+
+    background: #09090c;
+}
+
+

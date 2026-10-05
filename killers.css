@@ -1,0 +1,107 @@
+body {
+
+    margin: 0;
+    padding: 40px;
+
+    background: #050505;
+    color: white;
+
+    font-family: Comic Sans MS, sans-serif;
+
+    text-align: center;
+}
+
+
+h1 {
+
+    font-size: 38px;
+
+    font-weight: normal;
+
+    color: #dddddd;
+
+    margin-bottom: 5px;
+}
+
+
+.subtitle {
+
+    color: #888;
+
+    font-size: 17px;
+
+    margin-bottom: 40px;
+}
+
+
+/* Плашки */
+
+.killers {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+.killer {
+
+    width: 240px;
+
+    background: #111116;
+
+    border: 1px solid #25252b;
+
+    overflow: hidden;
+
+    text-decoration: none;
+
+    transition: 0.25s;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.killer img {
+
+    width: 240px;
+    height: 280px;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.25s;
+}
+
+
+.killer-name {
+
+    padding: 15px;
+
+    font-size: 19px;
+
+    color: white;
+}
+
+
+.killer:hover {
+
+    transform: translateY(-8px);
+
+    background: #242424;
+
+    border-color: #555;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+.killer:hover img {
+
+    transform: scale(1.03);
+}
